@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-crash-todolist';
+  title:string = 'angular-crash-todolist';
+  name:string = 'charlie';
+
+  constructor() {  // this runs when the component loads
+   //  this.name = "Steve"   //will override and make the name Steve
+
+  }
 }
